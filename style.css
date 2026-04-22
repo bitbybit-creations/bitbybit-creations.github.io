@@ -1,1 +1,15 @@
-body { background: #ff0; }
+html, body
+{
+    margin: 0;
+    height: 100%;
+}
+body
+{
+    background: url(bitbybit.png) #666 center no-repeat;
+}
+.center-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
